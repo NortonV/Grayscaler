@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Grayscale",
+    "version": "1.0",
+    "description": "Applies a grayscale filter to selected websites.",
+
+    "options_ui": {
+        "page": "options/options.html"
+    },
+
+    "icons": {
+      "48": "icons/logo.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "css": ["style.css"],
+        "js": ["script.js"]
+      }
+    ]
+}
+  
