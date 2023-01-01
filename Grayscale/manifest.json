@@ -4,12 +4,12 @@
     "version": "1.0",
     "description": "Applies a grayscale filter to selected websites.",
 
-    "options_ui": {
-        "page": "options/options.html"
+    "browser_action": {
+      "default_popup": "popout/popout.html"
     },
 
     "icons": {
-      "48": "icons/logo.png"
+      "64": "icons/logo.png"
     },
   
     "content_scripts": [

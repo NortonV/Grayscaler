@@ -3,7 +3,7 @@ function loadStylesheet() {
 
     link.rel = "stylesheet";
     link.type = "text/css";
-    link.href = browser.extension.getURL("style.css");
+    link.href = chrome.extension.getURL("style.css");
 
     document.head.appendChild(link);
 }
